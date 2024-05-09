@@ -2,6 +2,7 @@
 Movie search web application
 
 ## Usage
+- You must create a `.env` file in `webservice` with `API_TOKEN` defined. This is your personal token to access the TMDB API.
 - In `webapp`, run `npm run dev`. This will bring up the web page server on `localhost:3000`.
 - In `webservice`, run `npm run dev`, which will bring up the backend server on `localhost:5000`. The front end interacts with this server to get results.
 - Now you may search for movies by title by visiting `localhost:3000` in your browser. **Note:** You must click the magnifying glass in the top right corner of the application to start the search.
@@ -12,7 +13,6 @@ Movie search web application
 - Containerize the applications such that the entire service can be brought up with `docker compose`
 - Host the service in the cloud (AWS, Azure, etc.)
 - Introduce CI/CD practices
-- Remove the API token from the repository and instead set it up as a secret external to the repository.
 
 ### GUI
 - The search will not execute unless you click the magnifying glass, which is nonintuitive. Make it so the search is kicked off when the user presses "Enter."
