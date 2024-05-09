@@ -1,5 +1,6 @@
 # movie-search
-Movie search web application
+Movie search web application. This uses a NuxtJS framework with Vuetify for the webpage, and a simple Express JavaScript server for the back end.
+
 
 ## Usage
 - You must create a `.env` file in `webservice` with `API_TOKEN` defined. This is your personal token to access the TMDB API.
