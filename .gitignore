@@ -1,3 +1,10 @@
+# Vim
+*.swp
+*.swo
+
+# Node Installation
+package-lock.json
+
 # Logs
 logs
 *.log
